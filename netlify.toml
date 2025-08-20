@@ -1,0 +1,13 @@
+[images]
+  remote_images = ["https://source.unsplash.com/.*", "https://images.unsplash.com/.*", "https://ext.same-assets.com/.*", "https://ugc.same-assets.com/.*"]
+
+[build]
+  command = "bun run build"
+  publish = "out"
+
+# 针对 SPA 的重定向，但排除静态资源
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = false

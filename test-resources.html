@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resource Test</title>
+</head>
+<body>
+    <h1>测试资源加载</h1>
+    
+    <h2>从构建输出目录测试图片加载</h2>
+    <img src="./out/res/Peptides/ARA-290 10mg.JPG" alt="ARA-290 10mg" style="width:200px;" onerror="this.style.border='2px solid red';" onload="this.style.border='2px solid green';">
+    
+    <h2>从根路径测试图片加载</h2>
+    <img src="/res/Peptides/ARA-290 10mg.JPG" alt="ARA-290 10mg" style="width:200px;" onerror="this.style.border='2px solid red';" onload="this.style.border='2px solid green';">
+    
+    <h2>相对路径测试</h2>
+    <img src="res/Peptides/ARA-290 10mg.JPG" alt="ARA-290 10mg" style="width:200px;" onerror="this.style.border='2px solid red';" onload="this.style.border='2px solid green';">
+    
+    <script>
+        console.log('当前页面URL:', window.location.href);
+        console.log('当前base URL:', window.location.origin);
+    </script>
+</body>
+</html>

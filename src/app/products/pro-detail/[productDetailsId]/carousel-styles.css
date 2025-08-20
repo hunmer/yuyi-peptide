@@ -1,0 +1,63 @@
+/* 自定义轮播图样式 */
+.carousel-container {
+  padding: 0 20px;
+}
+
+.carousel-item-padding-40-px {
+  padding: 0 10px;
+}
+
+/* 确保图片完全显示，不裁剪 */
+.product-carousel-image {
+  object-fit: contain !important;
+  width: 100%;
+  height: 100%;
+}
+
+/* 轮播图按钮样式 */
+.react-multi-carousel-arrow {
+  background: rgba(34, 197, 94, 0.8) !important;
+  border: none !important;
+  color: white !important;
+  border-radius: 50% !important;
+  width: 40px !important;
+  height: 40px !important;
+  min-width: 40px !important;
+  min-height: 40px !important;
+}
+
+.react-multi-carousel-arrow:hover {
+  background: rgb(34, 197, 94) !important;
+}
+
+.react-multi-carousel-arrow::before {
+  font-size: 16px !important;
+  font-weight: bold !important;
+}
+
+/* 轮播图点样式 */
+.custom-dot-list-style {
+  margin-top: 20px !important;
+}
+
+.react-multi-carousel-dot button {
+  background: rgb(209, 213, 219) !important;
+  border: none !important;
+  width: 12px !important;
+  height: 12px !important;
+  border-radius: 50% !important;
+  margin: 0 4px !important;
+}
+
+.react-multi-carousel-dot--active button {
+  background: rgb(34, 197, 94) !important;
+}
+
+/* PhotoView 样式覆盖 */
+.PhotoView-PhotoSlider__toolbarIcon {
+  color: white !important;
+}
+
+.PhotoView-PhotoSlider__backdrop {
+  background: rgba(0, 0, 0, 0.8) !important;
+}
