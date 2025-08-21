@@ -18,14 +18,7 @@ export default function AboutPage() {
   }, [])
 
   const coaImages = [
-    'https://ext.same-assets.com/1764536919/2862780356.webp',
-    'https://ext.same-assets.com/1764536919/3391031003.webp',
-    'https://ext.same-assets.com/1764536919/2709729865.webp',
-    'https://ext.same-assets.com/1764536919/3199639853.webp',
-    'https://ext.same-assets.com/1764536919/530935332.webp',
-    'https://ext.same-assets.com/1764536919/4050038412.webp',
-    'https://ext.same-assets.com/1764536919/650695171.webp',
-    'https://ext.same-assets.com/1764536919/25388447.webp'
+    '',
   ]
 
   const industries = [
@@ -67,7 +60,7 @@ export default function AboutPage() {
 
       {/* Hero Section */}
       <section className="relative h-80 bg-cover bg-center" style={{
-        backgroundImage: `url('https://ext.same-assets.com/1764536919/3712362815.jpeg')`
+        backgroundImage: `url('/yuyi-peptide/res/img/about-bg.jpeg')`
       }}>
         <div className="absolute inset-0 bg-black/50"></div>
         <div className="container mx-auto px-4 h-full flex items-center relative z-10">
@@ -105,7 +98,7 @@ export default function AboutPage() {
               </p>
             </div>
             <div>
-              <img src="https://ext.same-assets.com/1764536919/2789165646.jpeg" alt="Laboratory production" className="rounded-lg shadow-lg" />
+              <img src="/yuyi-peptide/res/img/Laboratory production.jpeg" alt="Laboratory production" className="rounded-lg shadow-lg" />
             </div>
           </div>
 
@@ -201,7 +194,7 @@ export default function AboutPage() {
       </section>
 
       {/* COA Section */}
-      <section className="py-16 lg:py-24 bg-white" id="coa">
+      {/* <section className="py-16 lg:py-24 bg-white" id="coa">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-12 text-center">
             COA
@@ -225,7 +218,7 @@ export default function AboutPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Application Industries */}
       <section className="py-16 lg:py-24 bg-gray-50">

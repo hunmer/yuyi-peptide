@@ -29,6 +29,9 @@ export default function Footer() {
               Professional enterprise engaged in beauty peptide products, dedicated to providing
               high-quality peptides for skincare and body care benefits.
             </p>
+            <p className="text-xs text-gray-500 mb-4">
+              For research use only. Not for human or animal consumption.
+            </p>
 
             {/* Social links */}
             <div className="flex space-x-4">
@@ -86,7 +89,7 @@ export default function Footer() {
               </div>
               <div>
                 <p className="text-gray-400 text-sm mb-1">Mobile</p>
-                <p className="text-white">+86  17700658265</p>
+                <p className="text-white">+86  17638178481</p>
               </div>
               <div>
                 <p className="text-gray-400 text-sm mb-1">Email</p>

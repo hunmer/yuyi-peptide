@@ -99,7 +99,7 @@ export default async function ProductDetailPage({
                         <div>
                           <div className="font-medium text-gray-900">Phone</div>
                           <a href="tel:+85254211365" className="text-green-600 hover:text-green-700">
-                            +86  17700658265
+                            +86  17638178481
                           </a>
                         </div>
                       </div>
@@ -119,7 +119,7 @@ export default async function ProductDetailPage({
                         <div>
                           <div className="font-medium text-gray-900">WhatsApp</div>
                           <a href="https://wa.me/message/X6AYI4S63EPDH1" className="text-green-500 hover:text-green-600" target="_blank" rel="noopener noreferrer">
-                            +86  17700658265
+                            +86  17638178481
                           </a>
                         </div>
                       </div>

@@ -70,7 +70,7 @@ export default function NewsPage() {
 
       {/* Hero Section */}
       <section className="relative h-80 bg-cover bg-center" style={{
-        backgroundImage: `url('https://ext.same-assets.com/1764536919/294812594.jpeg')`
+        backgroundImage: `url('/yuyi-peptide/res/img/news.jpeg')`
       }}>
         <div className="absolute inset-0 bg-black/50"></div>
         <div className="container mx-auto px-4 h-full flex items-center relative z-10">

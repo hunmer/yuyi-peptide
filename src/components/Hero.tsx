@@ -13,7 +13,7 @@ export default function Hero() {
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `url('https://ext.same-assets.com/1764536919/2199221387.jpeg')`
+          backgroundImage: `url('/yuyi-peptide/res/img/factory-background.jpeg')`
         }}
       ></div>
 
@@ -36,13 +36,16 @@ export default function Hero() {
                   <p className="text-lg lg:text-xl leading-relaxed">
                     Mainly used in weight loss & bodybuilding & cosmetic/anti-aging/skincare areas.
                   </p>
+                  <p className="text-xs text-yellow-300 font-semibold">
+                    For research use only, not for human or animal consumption.
+                  </p>
                 </div>
               </div>
 
               <Link href="/products">
                 <Button
                   size="lg"
-                  className="bg-green-600 hover:bg-green-700 text-white font-semibold px-8 py-3"
+                  className="mt-3 bg-green-600 hover:bg-green-700 text-white font-semibold px-8 py-3"
                 >
                   Read more
                 </Button>

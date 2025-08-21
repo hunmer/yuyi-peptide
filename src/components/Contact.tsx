@@ -91,7 +91,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-1">WhatsApp</h4>
-                  <p className="text-gray-600">+86  17700658265</p>
+                  <p className="text-gray-600">+86  17638178481</p>
                 </div>
               </div>
             </div>

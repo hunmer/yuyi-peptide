@@ -11,53 +11,29 @@ import { FadeInUp, FadeInLeft, FadeInRight } from '@/components/ui/fade-in'
 export default function About() {
   const images = [
     {
-      src: 'https://ext.same-assets.com/1764536919/596125008.png',
+      src: '/yuyi-peptide/res/img/about1.png',
       alt: 'Lab Equipment'
     },
     {
-      src: 'https://ext.same-assets.com/1764536919/1344130270.png',
+      src: '/yuyi-peptide/res/img/about2.png',
       alt: 'Manufacturing Process'
     },
     {
-      src: 'https://ext.same-assets.com/1764536919/2199221387.jpeg',
+      src: '/yuyi-peptide/res/img/about3.png',
       alt: 'Quality Control'
     },
     {
-      src: 'https://ext.same-assets.com/1764536919/596125008.png',
+      src: '/yuyi-peptide/res/img/about4.png',
       alt: 'Research Lab'
     },
     {
-      src: 'https://ext.same-assets.com/1764536919/1344130270.png',
+      src: '/yuyi-peptide/res/img/about5.png',
       alt: 'Production Line'
     },
     {
-      src: 'https://ext.same-assets.com/1764536919/2199221387.jpeg',
+      src: '/yuyi-peptide/res/img/about6.png',
       alt: 'Testing Equipment'
     },
-    {
-      src: 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800',
-      alt: 'Laboratory Research'
-    },
-    {
-      src: 'https://images.unsplash.com/photo-1582719471384-894fbb16e074?w=800',
-      alt: 'Chemical Analysis'
-    },
-    {
-      src: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800',
-      alt: 'Clean Room'
-    },
-    {
-      src: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800',
-      alt: 'Lab Equipment Detail'
-    },
-    {
-      src: 'https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800',
-      alt: 'Scientific Research'
-    },
-    {
-      src: 'https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=800',
-      alt: 'Modern Laboratory'
-    }
   ]
 
   // 响应式配置
@@ -118,13 +94,11 @@ export default function About() {
           <FadeInRight>
             <div className="relative">
               <div className="aspect-[4/3] bg-gray-200 rounded-lg overflow-hidden">
-                <PhotoView src="https://ext.same-assets.com/1764536919/2199221387.jpeg">
-                  <img
-                    src="https://ext.same-assets.com/1764536919/2199221387.jpeg"
-                    alt="YuYi Company Building"
-                    className="w-full h-full object-cover cursor-pointer hover:scale-105 transition-transform duration-300"
-                  />
-                </PhotoView>
+                <img
+                  src="/yuyi-peptide/res/img/about3.png"
+                  alt="YuYi Company Building"
+                  className="w-full h-full object-cover cursor-pointer hover:scale-105 transition-transform duration-300"
+                />
               </div>
             </div>
           </FadeInRight>

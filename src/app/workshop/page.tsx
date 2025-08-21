@@ -10,23 +10,23 @@ import { PhotoView } from 'react-photo-view'
 export default function WorkshopPage() {
   const workshopImages = [
     {
-      src: 'https://ext.same-assets.com/1764536919/3961488292.jpeg',
+      src: '/yuyi-peptide/res/img/workshop1.jpeg',
       alt: 'Production workshop equipment'
     },
     {
-      src: 'https://ext.same-assets.com/1764536919/463269005.jpeg',
+      src: '/yuyi-peptide/res/img/workshop2.jpeg',
       alt: 'Manufacturing process'
     },
     {
-      src: 'https://ext.same-assets.com/1764536919/2831271891.jpeg',
+      src: '/yuyi-peptide/res/img/workshop3.jpeg',
       alt: 'Quality control station'
     },
     {
-      src: 'https://ext.same-assets.com/1764536919/3588531074.jpeg',
+      src: '/yuyi-peptide/res/img/workshop4.jpeg',
       alt: 'Production line'
     },
     {
-      src: 'https://ext.same-assets.com/1764536919/2610703754.jpeg',
+      src: '/yuyi-peptide/res/img/workshop5.jpeg',
       alt: 'Laboratory equipment'
     }
   ]
@@ -37,7 +37,7 @@ export default function WorkshopPage() {
 
       {/* Hero Section */}
       <section className="relative h-80 bg-cover bg-center" style={{
-        backgroundImage: `url('https://ext.same-assets.com/1764536919/1357178589.jpeg')`
+        backgroundImage: `url('/yuyi-peptide/res/img/workshop-bg.jpeg')`
       }}>
         <div className="absolute inset-0 bg-black/50"></div>
         <div className="container mx-auto px-4 h-full flex items-center relative z-10">

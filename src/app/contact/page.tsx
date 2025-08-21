@@ -43,7 +43,7 @@ export default function ContactPage() {
 
       {/* Hero Section */}
       <section className="relative h-80 bg-cover bg-center" style={{
-        backgroundImage: `url('https://ext.same-assets.com/1764536919/2830439268.jpeg')`
+        backgroundImage: `url('/yuyi-peptide/res/img/contact.jpeg')`
       }}>
         <div className="absolute inset-0 bg-black/50"></div>
         <div className="container mx-auto px-4 h-full flex items-center relative z-10">
@@ -104,7 +104,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-900 mb-1">WhatsApp</h4>
-                      <p className="text-gray-600">+86  17700658265</p>
+                      <p className="text-gray-600">+86  17638178481</p>
                     </div>
                   </div>
                 </div>
