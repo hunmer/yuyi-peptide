@@ -13,7 +13,7 @@ export default function Hero() {
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `url('/yuyi-peptide/res/img/factory-background.jpeg')`
+          backgroundImage: `url('/yuyi-peptide/res/img/factory-background.jpg')`
         }}
       ></div>
 
