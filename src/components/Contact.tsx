@@ -28,7 +28,7 @@ export default function Contact() {
       icon: UserPlus,
       title: 'Add WhatsApp',
       description: 'Chat with us instantly',
-      action: () => window.open('https://wa.me/message/X6AYI4S63EPDH1'),
+      action: () => window.open('https://wa.me/message/RATP775SVRXLC1'),
     },
   ]
 
@@ -91,7 +91,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-1">WhatsApp</h4>
-                  <p className="text-gray-600">+86  17638178481</p>
+                  <p className="text-gray-600">+852 6275 8070</p>
                 </div>
               </div>
             </div>

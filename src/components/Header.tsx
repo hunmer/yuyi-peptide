@@ -41,7 +41,7 @@ export default function Header() {
             </div>
             <div className="flex items-center space-x-2">
               <Phone className="w-4 h-4 text-gray-600" />
-              <span>+86  17638178481</span>
+              <span>+852 6275 8070</span>
             </div>
           </div>
         </div>
@@ -114,7 +114,7 @@ export default function Header() {
             <div className="hidden md:flex items-center space-x-4">
               <Button
                 className="bg-green-600 hover:bg-green-700 text-white"
-                onClick={() => window.open('https://wa.me/message/X6AYI4S63EPDH1', '_blank')}
+                onClick={() => window.open('https://wa.me/message/RATP775SVRXLC1', '_blank')}
               >
                 WhatsApp
               </Button>
@@ -178,7 +178,7 @@ export default function Header() {
 
                 <Button
                   className="bg-green-600 hover:bg-green-700 text-white w-full mt-4"
-                  onClick={() => window.open('https://wa.me/message/X6AYI4S63EPDH1', '_blank')}
+                  onClick={() => window.open('https://wa.me/message/RATP775SVRXLC1', '_blank')}
                 >
                   WhatsApp
                 </Button>
@@ -193,7 +193,7 @@ export default function Header() {
         <Button
           size="sm"
           className="bg-green-600 hover:bg-green-700 text-white rounded-full w-12 h-12 p-0"
-          onClick={() => window.open('https://wa.me/message/X6AYI4S63EPDH1', '_blank')}
+          onClick={() => window.open('https://wa.me/message/RATP775SVRXLC1', '_blank')}
         >
           <Phone className="w-5 h-5" />
         </Button>

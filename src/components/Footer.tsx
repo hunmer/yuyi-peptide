@@ -48,7 +48,7 @@ export default function Footer() {
                 <MessageCircle className="w-5 h-5" />
               </a>
               <a
-                href="https://wa.me/message/X6AYI4S63EPDH1"
+                href="https://wa.me/message/RATP775SVRXLC1"
                 className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-green-600 transition-colors"
               >
                 <Phone className="w-5 h-5" />
@@ -89,7 +89,7 @@ export default function Footer() {
               </div>
               <div>
                 <p className="text-gray-400 text-sm mb-1">Mobile</p>
-                <p className="text-white">+86  17638178481</p>
+                <p className="text-white">+852 6275 8070</p>
               </div>
               <div>
                 <p className="text-gray-400 text-sm mb-1">Email</p>
