@@ -42,7 +42,7 @@ export default function Footer() {
                 <Facebook className="w-5 h-5" />
               </a>
               <a
-                href="https://t.me/+85254211365"
+                href="https://t.me/+85270523171"
                 className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-green-600 transition-colors"
               >
                 <MessageCircle className="w-5 h-5" />
@@ -89,7 +89,7 @@ export default function Footer() {
               </div>
               <div>
                 <p className="text-gray-400 text-sm mb-1">Mobile</p>
-                <p className="text-white">+852 6275 8070</p>
+                <p className="text-white">+852 7052 3171</p>
               </div>
               <div>
                 <p className="text-gray-400 text-sm mb-1">Email</p>

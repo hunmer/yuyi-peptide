@@ -35,7 +35,7 @@ export default function PageContact() {
             </div>
             <div className="text-left">
               <h4 className="font-semibold text-gray-900">WhatsApp</h4>
-              <p className="text-gray-600">+852 6275 8070</p>
+              <p className="text-gray-600">+852 7052 3171</p>
             </div>
           </div>
         </div>

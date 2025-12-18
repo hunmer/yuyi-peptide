@@ -98,8 +98,8 @@ export default async function ProductDetailPage({
                         <Phone className="w-5 h-5 text-green-600" />
                         <div>
                           <div className="font-medium text-gray-900">Phone</div>
-                          <a href="tel:+85254211365" className="text-green-600 hover:text-green-700">
-                            +852 6275 8070
+                          <a href="tel:+85270523171" className="text-green-600 hover:text-green-700">
+                            +852 7052 3171
                           </a>
                         </div>
                       </div>
@@ -119,7 +119,7 @@ export default async function ProductDetailPage({
                         <div>
                           <div className="font-medium text-gray-900">WhatsApp</div>
                           <a href="https://wa.me/message/RATP775SVRXLC1" className="text-green-500 hover:text-green-600" target="_blank" rel="noopener noreferrer">
-                            +852 6275 8070
+                            +852 7052 3171
                           </a>
                         </div>
                       </div>

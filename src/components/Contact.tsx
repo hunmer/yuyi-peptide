@@ -10,7 +10,7 @@ export default function Contact() {
       icon: Phone,
       title: 'Call us',
       description: 'Speak directly with our team',
-      action: () => window.open('tel:+85254211365'),
+      action: () => window.open('tel:+85270523171'),
     },
     {
       icon: Mail,
@@ -91,7 +91,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-1">WhatsApp</h4>
-                  <p className="text-gray-600">+852 6275 8070</p>
+                  <p className="text-gray-600">+852 7052 3171</p>
                 </div>
               </div>
             </div>
