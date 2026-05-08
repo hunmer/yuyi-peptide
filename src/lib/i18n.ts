@@ -12,7 +12,7 @@ export const translations = {
   en: {
     nav: {
       home: 'Home',
-      about: 'About',
+      about: 'About(COA)',
       products: 'Products',
       workshop: 'Workshop',
       cooperate: 'Cooperate',

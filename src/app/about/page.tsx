@@ -44,12 +44,6 @@ export default function AboutPage() {
       benefits: 'Promote skin cell regeneration and slow down skin aging; inhibit melanin production, reduce spots and dullness; inhibit the growth of acne bacteria and improve acne problems; moisturize and moisturize, improve dry skin problems.'
     },
     {
-      title: 'Green agriculture',
-      icon: Leaf,
-      usage: 'Our products can be used to produce biopesticides, such as bioinsecticides, biofungicides, etc.',
-      benefits: 'Effectively control pests and diseases, reduce pesticide usage, and reduce pesticide residues; it will not cause pollution to the environment and is conducive to ecological balance and sustainable agricultural development.'
-    },
-    {
       title: 'Biomedicine',
       icon: FlaskConical,
       usage: 'Our products can be used in drug development and production, such as peptide drugs, biological preparations, etc.',
@@ -189,25 +183,15 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* World Map Section */}
-      <section className="py-16 bg-gray-50">
-        <div className="container mx-auto px-4 text-center">
-          <div className="w-full max-w-4xl mx-auto">
-            <img
-              src="https://www.globalywYuYi.com/images/cur/servicei-map1.png"
-              alt="Global Distribution"
-              className="w-full"
-            />
-          </div>
-        </div>
-      </section>
-
       {/* COA Section */}
       <section className="py-16 lg:py-24 bg-white" id="coa">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-12 text-center">
-            COA
-          </h2>
+          <div className="text-center mb-12">
+            <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
+              COA
+            </h2>
+            <p className="text-xl text-gray-500">These COA test reports were inspected and issued by the buyer after receiving the goods for quality supervision</p>
+          </div>
 
           <div className="relative overflow-hidden">
             <div className="flex animate-scroll space-x-6">
