@@ -194,7 +194,7 @@ export default function AboutPage() {
       </section>
 
       {/* COA Section */}
-      {/* <section className="py-16 lg:py-24 bg-white" id="coa">
+      <section className="py-16 lg:py-24 bg-white" id="coa">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-12 text-center">
             COA
@@ -218,7 +218,7 @@ export default function AboutPage() {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
 
       {/* Application Industries */}
       <section className="py-16 lg:py-24 bg-gray-50">

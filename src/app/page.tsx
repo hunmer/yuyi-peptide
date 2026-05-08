@@ -2,6 +2,7 @@ import Header from '@/components/Header'
 import Hero from '@/components/Hero'
 import About from '@/components/About'
 import Products from '@/components/Products'
+import CommentCarousel from '@/components/CommentCarousel'
 import CooperationProcess from '@/components/CooperationProcess'
 import Contact from '@/components/Contact'
 import Footer from '@/components/Footer'
@@ -13,6 +14,7 @@ export default function Home() {
       <Hero />
       <About />
       <Products />
+      <CommentCarousel />
       <CooperationProcess />
       <Contact />
       <Footer />
