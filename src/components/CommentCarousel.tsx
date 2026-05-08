@@ -8,12 +8,10 @@ import 'react-photo-view/dist/react-photo-view.css'
 import Image from 'next/image'
 import { FadeInUp } from '@/components/ui/fade-in'
 
-const basePath = '/yuyi-peptide'
-
 const commentImages = [
-  ...Array.from({ length: 9 }, (_, i) => `${basePath}/res/comments/${String(i + 1).padStart(3, '0')}.PNG`),
-  ...Array.from({ length: 20 }, (_, i) => `${basePath}/res/comments/${String(i + 10).padStart(3, '0')}.JPG`),
-  ...Array.from({ length: 9 }, (_, i) => `${basePath}/res/comments/${String(i + 30).padStart(3, '0')}.PNG`),
+  ...Array.from({ length: 9 }, (_, i) => `/res/comments/${String(i + 1).padStart(3, '0')}.PNG`),
+  ...Array.from({ length: 20 }, (_, i) => `/res/comments/${String(i + 10).padStart(3, '0')}.JPG`),
+  ...Array.from({ length: 9 }, (_, i) => `/res/comments/${String(i + 30).padStart(3, '0')}.PNG`),
 ]
 
 const responsive = {
