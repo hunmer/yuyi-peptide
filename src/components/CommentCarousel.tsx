@@ -35,6 +35,7 @@ export default function CommentCarousel() {
             </h2>
             <p className="text-lg text-gray-700 max-w-2xl mx-auto leading-relaxed">
               Real feedback from our valued customers
+              <div className="text-center text-3xl mb-1">🇺🇸🇬🇧🇦🇺🇩🇪🇸🇪🇧🇪🇲🇾🇸🇬🇳🇿🇧🇷🇹🇭🇵🇭🇵🇱🇳🇱</div>
             </p>
           </div>
         </FadeInUp>
