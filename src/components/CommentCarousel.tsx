@@ -36,7 +36,7 @@ export default function CommentCarousel() {
             <p className="text-lg text-gray-700 max-w-2xl mx-auto leading-relaxed">
               Real feedback from our valued customers
             </p>
-            <p className="text-center text-3xl mb-1">🇺🇸🇬🇧🇦🇺🇩🇪🇸🇪🇧🇪🇲🇾🇸🇬🇳🇿🇧🇷🇹🇭🇵🇭🇵🇱🇳🇱</p>
+            <img src="/yuyi-peptide/res/img/flags.png" alt="Customer countries" className="mx-auto mt-4 max-w-[70%]" />
           </div>
         </FadeInUp>
 
