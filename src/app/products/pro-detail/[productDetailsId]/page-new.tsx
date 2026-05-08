@@ -108,8 +108,8 @@ export default async function ProductDetailPage({
                         <Mail className="w-5 h-5 text-blue-600" />
                         <div>
                           <div className="font-medium text-gray-900">Email</div>
-                          <a href="mailto:2124427370@qq.com" className="text-blue-600 hover:text-blue-700">
-                            2124427370@qq.com
+                          <a href="mailto:yuyipeptide@gmail.com" className="text-blue-600 hover:text-blue-700">
+                            yuyipeptide@gmail.com
                           </a>
                         </div>
                       </div>

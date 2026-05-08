@@ -25,7 +25,7 @@ export default function PageContact() {
             </div>
             <div className="text-left">
               <h4 className="font-semibold text-gray-900">E-mail</h4>
-              <p className="text-gray-600">2124427370@qq.com</p>
+              <p className="text-gray-600">yuyipeptide@gmail.com</p>
             </div>
           </div>
 

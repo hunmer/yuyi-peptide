@@ -18,7 +18,16 @@ export default function AboutPage() {
   }, [])
 
   const coaImages = [
-    '',
+    '/yuyi-peptide/res/coa/bpc157.JPG',
+    '/yuyi-peptide/res/coa/ghk-cu50.png',
+    '/yuyi-peptide/res/coa/ip10.JPG',
+    '/yuyi-peptide/res/coa/MT2.png',
+    '/yuyi-peptide/res/coa/reta10.JPG',
+    '/yuyi-peptide/res/coa/RT10.jpg',
+    '/yuyi-peptide/res/coa/sm10.JPG',
+    '/yuyi-peptide/res/coa/tr10.jpeg',
+    '/yuyi-peptide/res/coa/tr15.JPG',
+    '/yuyi-peptide/res/coa/TSM10.jpg',
   ]
 
   const industries = [

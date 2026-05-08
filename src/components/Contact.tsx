@@ -16,7 +16,7 @@ export default function Contact() {
       icon: Mail,
       title: 'Send e-mail',
       description: 'Get in touch via email',
-      action: () => window.open('mailto:2124427370@qq.com'),
+      action: () => window.open('mailto:yuyipeptide@gmail.com'),
     },
     {
       icon: MessageSquare,
@@ -81,7 +81,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-1">E-mail</h4>
-                  <p className="text-gray-600">2124427370@qq.com</p>
+                  <p className="text-gray-600">yuyipeptide@gmail.com</p>
                 </div>
               </div>
 

@@ -1,5 +1,6 @@
 import { Facebook, MessageCircle, Phone, Mail } from 'lucide-react'
 import Link from 'next/link'
+import FloatingStaff from '@/components/FloatingStaff'
 
 export default function Footer() {
   const navigation = {
@@ -14,6 +15,7 @@ export default function Footer() {
   }
 
   return (
+    <>
     <footer className="bg-gray-900 text-white">
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -54,7 +56,7 @@ export default function Footer() {
                 <Phone className="w-5 h-5" />
               </a>
               <a
-                href="mailto:2124427370@qq.com"
+                href="mailto:yuyipeptide@gmail.com"
                 className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-green-600 transition-colors"
               >
                 <Mail className="w-5 h-5" />
@@ -93,7 +95,7 @@ export default function Footer() {
               </div>
               <div>
                 <p className="text-gray-400 text-sm mb-1">Email</p>
-                <p className="text-white">2124427370@qq.com</p>
+                <p className="text-white">yuyipeptide@gmail.com</p>
               </div>
             </div>
           </div>
@@ -119,5 +121,6 @@ export default function Footer() {
         </div>
       </div>
     </footer>
+    <FloatingStaff />
+  </>
   )
-}

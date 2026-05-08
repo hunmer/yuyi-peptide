@@ -37,7 +37,7 @@ export default function Header() {
           <div className="flex justify-end items-center space-x-6 text-sm">
             <div className="flex items-center space-x-2">
               <Mail className="w-4 h-4 text-gray-600" />
-              <span>2124427370@qq.com</span>
+              <span>yuyipeptide@gmail.com</span>
             </div>
             <div className="flex items-center space-x-2">
               <Phone className="w-4 h-4 text-gray-600" />
@@ -201,7 +201,7 @@ export default function Header() {
           size="sm"
           variant="outline"
           className="bg-white hover:bg-gray-50 rounded-full w-12 h-12 p-0"
-          onClick={() => window.location.href = 'mailto:2124427370@qq.com'}
+          onClick={() => window.location.href = 'mailto:yuyipeptide@gmail.com'}
         >
           <Mail className="w-5 h-5" />
         </Button>
